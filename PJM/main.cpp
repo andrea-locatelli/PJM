@@ -7,6 +7,6 @@ int main(int argc, char *argv[])
     ACB w;
     w.show();
 //commentaire
-// come12345678
+// come123
     return a.exec();
 }
