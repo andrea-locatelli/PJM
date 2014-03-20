@@ -8,6 +8,6 @@ int main(int argc, char *argv[])
     w.show();
 //commentaire
 // come123
-    //andrea
+    //andrealocatelli
     return a.exec();
 }
