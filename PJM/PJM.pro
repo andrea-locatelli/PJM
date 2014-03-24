@@ -14,10 +14,16 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         acb.cpp \
-    menu_main.cpp
+    menu_main.cpp \
+    pr_accueil.cpp \
+    aide_context.cpp
 
 HEADERS  += acb.h \
-    menu_main.h
+    menu_main.h \
+    pr_accueil.h \
+    aide_context.h
 
 FORMS    += acb.ui \
-    menu_main.ui
+    menu_main.ui \
+    pr_accueil.ui \
+    aide_context.ui

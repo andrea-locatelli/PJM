@@ -32,13 +32,33 @@
    <string>Analyse Coût Bénéfices</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="Menu_main" name="widget" native="true">
+   <widget class="Menu_main" name="menu" native="true">
     <property name="geometry">
      <rect>
       <x>10</x>
       <y>10</y>
       <width>220</width>
       <height>270</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="Pr_accueil" name="pr" native="true">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>10</y>
+      <width>750</width>
+      <height>630</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="Aide_context" name="aide" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>290</y>
+      <width>220</width>
+      <height>300</height>
      </rect>
     </property>
    </widget>
@@ -135,6 +155,18 @@
    <class>Menu_main</class>
    <extends>QWidget</extends>
    <header>menu_main.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>Pr_accueil</class>
+   <extends>QWidget</extends>
+   <header>pr_accueil.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>Aide_context</class>
+   <extends>QWidget</extends>
+   <header>aide_context.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>
