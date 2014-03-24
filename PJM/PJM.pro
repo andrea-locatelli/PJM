@@ -13,8 +13,11 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        acb.cpp
+        acb.cpp \
+    menu_main.cpp
 
-HEADERS  += acb.h
+HEADERS  += acb.h \
+    menu_main.h
 
-FORMS    += acb.ui
+FORMS    += acb.ui \
+    menu_main.ui
