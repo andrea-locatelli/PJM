@@ -16,14 +16,17 @@ SOURCES += main.cpp\
         acb.cpp \
     menu_main.cpp \
     pr_accueil.cpp \
-    aide_context.cpp
+    aide_context.cpp \
+    donnees_generales.cpp
 
 HEADERS  += acb.h \
     menu_main.h \
     pr_accueil.h \
-    aide_context.h
+    aide_context.h \
+    donnees_generales.h
 
 FORMS    += acb.ui \
     menu_main.ui \
     pr_accueil.ui \
-    aide_context.ui
+    aide_context.ui \
+    donnees_generales.ui

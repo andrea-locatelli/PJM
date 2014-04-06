@@ -42,7 +42,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="Pr_accueil" name="pr" native="true">
+   <widget class="Pr_accueil" name="Principal" native="true">
     <property name="geometry">
      <rect>
       <x>240</x>
@@ -171,5 +171,22 @@
   </customwidget>
  </customwidgets>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>actionQuitter</sender>
+   <signal>triggered()</signal>
+   <receiver>ACB</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>511</x>
+     <y>349</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>
