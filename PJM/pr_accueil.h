@@ -2,6 +2,7 @@
 #define PR_ACCUEIL_H
 
 #include <QWidget>
+#include <QtWebKit/QtWebKit>
 
 namespace Ui {
 class Pr_accueil;
